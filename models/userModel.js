@@ -18,7 +18,7 @@ var userSchema = new mongoose.Schema(
     },
     user_type: {
       type: String,
-      enum: ["super_admin", "accountent", "ca"],
+      enum: ["super_admin", "accountant", "ca"],
       default: "super_admin",
     },
   },
